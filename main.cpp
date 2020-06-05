@@ -53,6 +53,7 @@ void expression4()
     cin>>delta;
     cout<<"tst= "<<((t1-273+t2-273)/2)+delta<<endl;
 }
+
 void expression5(){
     double si, n, d;
     cout<<"Input Si: ";
@@ -62,8 +63,8 @@ void expression5(){
     cout<<"Input d: ";
     cin>>d;
     cout<<"ak= "<<((si/1000)*(n-1))+(d/1000)+0.05<<endl;
-
 }
+
 void expression6(){
     double ak, n, d, lp;
     cout<<"Input ak: ";
@@ -76,6 +77,7 @@ void expression6(){
     cin>>lp;
     cout<<"fk= "<<(ak-(n*d/1000))*lp<<endl;
 }
+
 void expression7(){
     double gps, b;
     cout<<"Input Gps: ";
@@ -84,6 +86,7 @@ void expression7(){
     cin>>b;
     cout<<"Gdgs= "<<gps*b/1000<<endl;
 }
+
 void expression8(){
     double t, tyx;
     cout<<"Input t: ";
@@ -92,6 +95,7 @@ void expression8(){
     cin>>tyx;
     cout<<"tsr= "<<(t-tyx)/2.31*log(t/tyx) <<endl;
 }
+
 void expression9(){
     double e, u, d;
     cout<<"Input E: ";
@@ -102,12 +106,14 @@ void expression9(){
     cin>>d;
     cout<<"ak= "<<0.35*e*pow(u,0.6)/pow(d/1000,0.4)<<endl;
 }
+
 void expression10(){
     double tsr;
     cout<<"Input tsr: ";
     cin>>tsr;
     cout<<"a1= "<<0.0256*tsr-2.33<<endl;
 }
+
 void expression11(){
     double ak, a1;
     cout<<"Input ak: ";
@@ -116,6 +122,7 @@ void expression11(){
     cin>>a1;
     cout<<"K= "<<1.1*(ak+a1)<<endl;
 }
+
 void expression12(){
     double qk, k, deltaTsr;
     cout<<"Input Qk: ";
@@ -126,6 +133,7 @@ void expression12(){
     cin>>deltaTsr;
     cout<<"Hk= "<<qk/k*deltaTsr<<endl;
 }
+
 void expression13(){
     double hk, d, lp;
     cout<<"Input Hk: ";
