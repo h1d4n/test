@@ -10,24 +10,24 @@ const double PI= 3.14;
 
 void expression1()
 {
-    double Qpol, Qp;
+    double qpol, qp;
     cout<<"Input Qpol: ";
-    cin>>Qpol;
+    cin>>qpol;
     cout<<"Input Qp: ";
-    cin>>Qp;
-    cout<<"Qk= "<<(Qpol-Qp)<<endl;
+    cin>>qp;
+    cout<<"Qk= "<<(qpol-qp)<<endl;
 }
 
 void expression2()
 {
-    double Qk, Gs, lt1;
+    double qk, gs, lt1;
     cout<<"Input Qk: ";
-    cin>>Qk;
+    cin>>qk;
     cout<<"Input Gs: ";
-    cin>>Gs;
+    cin>>gs;
     cout<<"Input lt1: ";
     cin>>lt1;
-    cout<<"I= "<<(Qk/Gs)+lt1<<endl;
+    cout<<"I= "<<(qk/gs)+lt1<<endl;
 }
 
 void expression3()
