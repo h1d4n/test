@@ -1,11 +1,9 @@
 #include <iostream>
-#include <string>
 #include <cmath>
 
 using namespace std;
 
 const double PI= 3.14;
-
 
 
 void expression1()
