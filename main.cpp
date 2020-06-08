@@ -156,7 +156,8 @@ void expression13()
 
 int main()
 {
-    while(true){
+    while(true)
+    {
         int expression_number;
         cout<<"Input expression number: ";
         cin>>expression_number;
